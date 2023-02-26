@@ -1,0 +1,21 @@
+.headerContainer {
+  height: 80px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(50px);
+  overflow: auto;
+}
+
+.headerLogo {
+  margin-left: 250px;
+  margin-top: 21px;
+  float: left;
+}
+
+.mobilePhoneNumber {
+  width: 149px;
+  height: 29px;
+  margin-left: 1406px;
+  margin-top: 21px;
+  background: #ffffff;
+  border-radius: 14.5px;
+}

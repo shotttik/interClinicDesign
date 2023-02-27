@@ -1,0 +1,73 @@
+.footerContainer {
+  height: 251px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.footerLogo {
+  padding-top: 68px;
+  padding-left: 251px;
+  float: left;
+}
+
+.copyrightContainer {
+  float: left;
+  margin-left: 251px;
+  margin-top: -40px;
+}
+
+.copyrightContainer p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #25508c;
+}
+
+.informationContainer {
+  float: left;
+  padding-top: 73px;
+  padding-left: 415px;
+}
+
+.title {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #25508c;
+}
+
+.infoDivs {
+  float: left;
+  padding-left: 91px;
+}
+
+.titleLine {
+  margin-top: 17px;
+  width: 80px;
+  height: 3px;
+
+  background: #f9981b;
+}
+.textContainer {
+  padding-top: 16px;
+}
+.informationText {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #25508c;
+}
+
+.facebookSVG {
+  padding-top: 3px;
+}

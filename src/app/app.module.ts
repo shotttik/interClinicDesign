@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MobileSVGComponent } from './svgIcons/mobile-svg/mobile-svg.component';
+import { FacebookSvgComponent } from './svgIcons/facebook-svg/facebook-svg.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MobileSVGComponent } from './svgIcons/mobile-svg/mobile-svg.component';
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    MobileSVGComponent
+    MobileSVGComponent,
+    FacebookSvgComponent
   ],
   imports: [
     BrowserModule,

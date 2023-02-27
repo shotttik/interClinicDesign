@@ -14,8 +14,68 @@
 .mobilePhoneNumber {
   width: 149px;
   height: 29px;
-  margin-left: 1406px;
-  margin-top: 21px;
+  margin-left: 1015px;
+  margin-top: 25px;
   background: #ffffff;
   border-radius: 14.5px;
+  float: left;
+}
+
+.mobileSVG {
+  padding-top: 7px;
+  margin-left: 18px;
+  float: left;
+}
+
+.mobileTextNumber {
+  margin-top: 6px;
+  margin-left: 6px;
+  float: left;
+}
+
+.mobilePhoneNumber p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #132a4b;
+}
+
+.changeLanguageContainer {
+  float: left;
+  margin-top: 25px;
+  margin-left: 16px;
+  border-radius: 14.5px;
+  background: #ffffff;
+}
+
+.changeLanguageContainer p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  margin-top: 6px;
+  margin-left: 14px;
+}
+
+.langBox {
+  width: 52px;
+  height: 29px;
+}
+
+.geoLanguage {
+  float: left;
+}
+.engLanguage {
+  float: right;
+}
+
+.langActive {
+  background: #25508c;
+  border-radius: 14.5px;
+  color: #ffffff;
 }

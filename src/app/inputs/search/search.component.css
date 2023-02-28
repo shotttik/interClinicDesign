@@ -1,0 +1,28 @@
+.searchInput input {
+  width: 340px;
+  height: 53px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(50px);
+  border: none;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 30px;
+  color: #ffffff;
+  padding-left: 28px;
+}
+
+.circleContainer {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #25508c;
+  top: 4px;
+  position: absolute;
+  right: 5px;
+}
+
+app-svg-icon {
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 14px;
+}

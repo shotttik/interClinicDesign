@@ -23,7 +23,7 @@
 }
 
 .navItem {
-  width: 338px;
+  width: 355px;
   height: 280px;
   float: left;
 }
@@ -75,6 +75,7 @@
   float: right;
   width: 18px;
   height: 18px;
+  overflow: hidden;
 
   border-radius: 50%;
   background: #ffffff;
@@ -83,4 +84,30 @@
 .navItemArrow app-svg-icon {
   margin-top: 50%;
   margin-left: 50%;
+}
+
+.navItem.active {
+  background: #f9981b;
+  border-radius: 10px;
+}
+.navItem.active .circle {
+  background: #ffffff;
+}
+
+.navItem.active .menuTitle p {
+  color: #ffffff;
+}
+.navItem.active .smallLine {
+  background: rgba(245, 245, 245, 0.25);
+}
+.navItem.active .menuDescription {
+  color: #ffffff;
+}
+
+.navItem.active .navItemArrowCricle {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+::ng-deep .navItem.active #navItemArrow {
+  fill: #25508c;
 }

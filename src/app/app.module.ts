@@ -10,6 +10,7 @@ import { SearchComponent } from './inputs/search/search.component';
 import { SvgIconComponent } from './svg-icon/svg-icon.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavComponent } from './components/nav/nav.component';
+import { LaboratoryComponent } from './components/laboratory/laboratory.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NavComponent } from './components/nav/nav.component';
     SearchComponent,
     SvgIconComponent,
     NavComponent,
+    LaboratoryComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

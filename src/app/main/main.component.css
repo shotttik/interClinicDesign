@@ -9,6 +9,10 @@
   position: absolute;
   border-radius: 0px 0px 150px 150px;
 }
+.navImage img {
+  height: 100%;
+  width: 100%;
+}
 
 .navImageBlur {
   z-index: 10;
@@ -24,4 +28,9 @@ app-search {
 
 .mainContainer {
   position: relative;
+}
+
+app-laboratory {
+  margin-top: 299px;
+  display: block;
 }

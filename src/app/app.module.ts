@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { MobileSVGComponent } from './svgIcons/mobile-svg/mobile-svg.component';
-import { FacebookSvgComponent } from './svgIcons/facebook-svg/facebook-svg.component';
+import { SearchComponent } from './inputs/search/search.component';
+import { SvgIconComponent } from './svg-icon/svg-icon.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,14 +16,11 @@ import { FacebookSvgComponent } from './svgIcons/facebook-svg/facebook-svg.compo
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    MobileSVGComponent,
-    FacebookSvgComponent
+    SearchComponent,
+    SvgIconComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

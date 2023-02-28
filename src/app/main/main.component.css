@@ -1,0 +1,23 @@
+.navImageContainer {
+  position: relative;
+  height: 600px;
+}
+.navImageBlur,
+.navImage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 0px 0px 150px 150px;
+}
+
+.navImageBlur {
+  z-index: 10;
+  background: rgba(29, 0, 0, 0.15);
+}
+
+app-search {
+  z-index: 10;
+  position: absolute;
+  top: 239px;
+  left: 274px;
+}

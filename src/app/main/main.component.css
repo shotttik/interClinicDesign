@@ -21,3 +21,7 @@ app-search {
   top: 239px;
   left: 274px;
 }
+
+.mainContainer {
+  position: relative;
+}

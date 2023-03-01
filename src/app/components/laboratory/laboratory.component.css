@@ -4,3 +4,137 @@
   background: #ffffff;
   border-radius: 10px;
 }
+.labImageContainer {
+  margin-left: 251px;
+  position: relative;
+}
+
+.labImageBackground {
+  position: absolute;
+  box-sizing: border-box;
+
+  margin-top: 36px;
+  width: 698px;
+  height: 500px;
+
+  border: 2px solid rgba(249, 152, 27, 0.5);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.labImageBox {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 34px;
+  width: 685px;
+  height: 490px;
+  border-radius: 10px;
+}
+
+.labImage img {
+  width: 685px;
+  height: 490px;
+  border-radius: 10px;
+}
+
+.labImageBlur {
+  background: rgba(29, 0, 0, 0.08);
+}
+
+.aboutLabContainer {
+  float: right;
+}
+
+.labTitle {
+  margin-right: 624px;
+  margin-top: 85px;
+}
+
+.labTitle p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #25508c;
+}
+
+.labTitleLine {
+  margin-top: 21px;
+  width: 270px;
+  height: 2px;
+
+  background: #f5f5f5;
+}
+
+.ourLabTextContainer {
+  width: 597px;
+  height: 76px;
+  margin-top: 23px;
+}
+
+.laborantsTextContainer {
+  width: 585px;
+  height: 76px;
+  margin-top: 26px;
+}
+
+.labText p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #132a4b;
+}
+
+.laborantsTitle {
+  float: left;
+  margin-top: 81px;
+}
+
+.laborantsTitle p {
+  font-family: "FiraGO";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #25508c;
+}
+.profiles,
+.profileItem {
+  float: left;
+}
+.profiles {
+  margin-left: 25px;
+  margin-top: 51px;
+}
+
+.profileItem {
+  margin-right: 40px;
+}
+
+.profileText p {
+  font-family: "FiraGO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #25508c;
+}
+
+.profileImage {
+  margin: auto;
+  height: 99px;
+  width: 99px;
+}
+
+.profileImage img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}

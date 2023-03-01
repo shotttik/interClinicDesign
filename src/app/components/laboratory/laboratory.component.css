@@ -116,6 +116,9 @@
   margin-right: 40px;
 }
 
+.profileText {
+  margin-top: 6px;
+}
 .profileText p {
   font-family: "FiraGO";
   font-style: normal;

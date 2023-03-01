@@ -1,0 +1,161 @@
+.newsContainer {
+  height: 424px;
+  width: 1430px;
+}
+.newsHeaderContainer {
+  height: 34px;
+}
+
+.newsTitle {
+  float: left;
+}
+.newsTitle p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #25508c;
+}
+
+.newArchiveTitle {
+  float: right;
+  margin-right: 8.19px;
+}
+
+.newArchiveTitle p {
+  margin-right: 8px;
+  float: left;
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #25508c;
+}
+
+.archiveArrow {
+  float: right;
+}
+
+.newsItemsContainer {
+  margin-top: 40px;
+}
+.newsItem {
+  position: relative;
+  float: left;
+}
+.newsItem.rightPadding {
+  margin-right: 19px;
+}
+.newsItemImage {
+  height: 350px;
+  width: 460px;
+}
+
+.newsItemImage img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.newsItemFooter {
+  position: absolute;
+  z-index: 5;
+  top: 235px;
+}
+
+.newsItemDateContainer {
+  float: left;
+  margin-left: 30px;
+}
+.newsItemMonth {
+  float: left;
+  padding-top: 27px;
+  padding-right: 3px;
+}
+.newsItemMonth p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #f9981b;
+}
+
+.newsItemYear {
+  display: inline-block;
+  margin-left: 3px;
+  padding-top: 45px;
+}
+
+.newsItemYear p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #d9d9d9;
+}
+.monthText {
+  padding-left: 3px;
+}
+.monthText p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #25508c;
+}
+.newsItemTitle {
+  padding-top: 23px;
+}
+.newsItemTitle p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #25508c;
+}
+.newsItemDesc,
+.newsItemTitle {
+  padding-left: 137px;
+}
+.newsItemDesc p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #132a4b;
+}
+
+.newsItemImageBlur {
+  top: 0;
+  z-index: 3;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(29, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.newsItemFooterBackground {
+  top: 235px;
+  position: absolute;
+  height: 115px;
+  width: 100%;
+  z-index: 4;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(2px);
+}

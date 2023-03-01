@@ -18,6 +18,9 @@
   z-index: 10;
   background: rgba(29, 0, 0, 0.15);
 }
+.mainContainer {
+  position: relative;
+}
 
 app-search {
   z-index: 10;
@@ -26,11 +29,23 @@ app-search {
   left: 274px;
 }
 
-.mainContainer {
-  position: relative;
-}
-
 app-laboratory {
   margin-top: 299px;
   display: block;
+}
+
+app-news {
+  display: block;
+  margin-left: 251px;
+  margin-top: 134px;
+}
+
+.backgroundWhiteRectangle {
+  position: absolute;
+  height: 510px;
+  width: 100%;
+  top: 1941px;
+  z-index: 1;
+  background: red;
+  border-radius: 10px;
 }

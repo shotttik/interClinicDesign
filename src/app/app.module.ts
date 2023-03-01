@@ -11,6 +11,7 @@ import { SvgIconComponent } from './svg-icon/svg-icon.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavComponent } from './components/nav/nav.component';
 import { LaboratoryComponent } from './components/laboratory/laboratory.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LaboratoryComponent } from './components/laboratory/laboratory.componen
     SvgIconComponent,
     NavComponent,
     LaboratoryComponent,
+    NewsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

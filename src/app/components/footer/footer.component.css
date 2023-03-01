@@ -1,6 +1,7 @@
 .footerContainer {
+  display: inline-block;
   height: 251px;
-
+  margin-bottom: 152px;
   background: #ffffff;
   border-radius: 10px;
 }

@@ -39,7 +39,9 @@
   width: 710px;
   height: 350px;
 }
-
+.rulesTitle {
+  margin-bottom: 17px;
+}
 .rulesTitle p {
   font-family: "FiraGO-Regular";
   font-style: normal;

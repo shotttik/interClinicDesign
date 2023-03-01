@@ -59,3 +59,8 @@ app-rules {
   top: 192px;
   margin-left: 240px;
 }
+
+app-partners {
+  display: inline-block;
+  margin: 283px 0 121px 250px;
+}

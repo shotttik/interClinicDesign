@@ -1,4 +1,33 @@
-.partnersContainer {
-  height: 491px;
-  background: green;
+.partnerItemsContainer {
+  display: inline-block;
+}
+.partnersTitle {
+  margin-bottom: 31px;
+}
+.partnersTitle p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #25508c;
+}
+
+.partnerItem {
+  float: left;
+  width: 340px;
+  height: 154px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.partnerItem.marginRight {
+  margin-right: 20px;
+}
+
+.partnerItem {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }

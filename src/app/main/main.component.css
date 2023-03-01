@@ -35,6 +35,8 @@ app-laboratory {
 }
 
 app-news {
+  position: relative;
+  z-index: 2;
   display: block;
   margin-left: 251px;
   margin-top: 134px;
@@ -46,6 +48,14 @@ app-news {
   width: 100%;
   top: 1941px;
   z-index: 1;
-  background: red;
+  background: #ffffff;
   border-radius: 10px;
+}
+
+app-rules {
+  position: relative;
+  display: block;
+  z-index: 2;
+  top: 192px;
+  margin-left: 240px;
 }

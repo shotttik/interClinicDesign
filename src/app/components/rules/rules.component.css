@@ -1,0 +1,89 @@
+.rulesContainer {
+  position: relative;
+  width: 1420px;
+}
+.rulesImage img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.rulesImageBlur {
+  position: absolute;
+  top: 0;
+  width: 1420px;
+  height: 350px;
+  background: rgba(29, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.rulesImageSemiBlur {
+  float: right;
+  position: absolute;
+  width: 710px;
+  height: 350px;
+  top: 0px;
+  right: 0;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 0px 10px 10px 0px;
+}
+
+.rulesInfoContainer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 710px;
+  height: 350px;
+}
+
+.rulesTitle p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #132a4b;
+}
+.rulesDesc {
+  width: 510px;
+}
+.rulesDesc p {
+  font-family: "FiraGO-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #132a4b;
+}
+
+.callIconCircle {
+  width: 79px;
+  height: 80px;
+  border-radius: 50%;
+  background: #f9981b;
+  margin: 68px 0 32px 489px;
+}
+.callIconCircle app-svg-icon {
+  display: inline-block;
+  margin: 26px 0 0 26px;
+}
+::ng-deep .callIconCircle #mobileSVG {
+  fill: #ffffff;
+}
+
+::ng-deep .callIconCircle .mobileSVG {
+  display: block;
+  height: 28px;
+  width: 27px;
+}
+
+.rulesTitle,
+.rulesDesc {
+  margin-left: 108px;
+}

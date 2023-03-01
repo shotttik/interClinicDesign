@@ -12,6 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavComponent } from './components/nav/nav.component';
 import { LaboratoryComponent } from './components/laboratory/laboratory.component';
 import { NewsComponent } from './components/news/news.component';
+import { RulesComponent } from './components/rules/rules.component';
+import { PartnersComponent } from './components/partners/partners.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { NewsComponent } from './components/news/news.component';
     NavComponent,
     LaboratoryComponent,
     NewsComponent,
+    RulesComponent,
+    PartnersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
